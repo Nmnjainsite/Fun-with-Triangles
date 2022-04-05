@@ -1,0 +1,27 @@
+h1{
+    color: yellow;
+    text-align: center;
+}
+body{
+background-color: purple;
+}
+.angle-input{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.nav-bar{
+  display: block;
+  background-color: yellow;
+ font-size: larger;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+  max-width: 100%;
+}
+
+#submit-answer-btn{
+    text-align: center;
+    background-color: yellow;
+}
