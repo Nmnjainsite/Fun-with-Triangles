@@ -1,24 +1,38 @@
 h1{
-    color: yellow;
+    color: blue;
     text-align: center;
 }
 body{
-background-color: purple;
+background-color: yellow;
 }
 .angle-input{
     display: flex;
     flex-direction: row;
     text-align: center;
 }
-
+#header{
+    text-align: center;
+    color: blue;
+}
 .nav-bar{
   display: block;
-  background-color: yellow;
- font-size: larger;
+  background-color: gainsboro;
+ font-size: x-large;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
   margin: auto;
   max-width: 100%;
+  color: orange;
+}
+
+#input-btn{
+    padding: 0.5rem;
+    max-width: 80%;
+    margin: 0.5rem;
+}
+
+.area-input1{
+    display: flex;
 }
 
 #submit-answer-btn{
