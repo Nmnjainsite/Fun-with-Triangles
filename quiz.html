@@ -8,41 +8,65 @@
     <title>Triangle quiz</title>
 </head>
 <body>
-    <nav class="nav-bar" style="text-decoration: none">
-        <ul class="list-non-bullet" >
-            <a href="index.html">Is Triangle?</a>
+    <nav class="nav-bar" >
+        <ul class="list-non-bullet"  >
+            <li class="list-item-inline" ><a href="index.html" style="text-decoration: none;">Is Triangle?</a></li>
+           
             
-        
-        <a href="quiz.html">Triangle Quiz</a>
-        <a href="hypotenuse.html">Hypotenuse</a>
-        <a href="area.html">Measure Area</a>
+       <li class="list-item-inline"> <a href="quiz.html" style="text-decoration: none;">Triangle Quiz</a></li>
+       <li class="list-item-inline"><a href="hypotenuse.html" style="text-decoration: none; ">Hypotenuse</a></li>
+        <li class="list-item-inline">   <a href="area.html" style="text-decoration: none;">Measure Area</a></li>
+     
     </ul>
     </nav>
     <h1>triangle quiz</h1>
-<form class="quiz-form">
-<div class="question-container">
+<form class="quiz-form" >
+<div class="angle-area">
     <p>what is the third angle fr the traingle where angle1=45° and angle2=45°?</p>
 <label> 
-    <input type="radio" name="question1" value="45°"/>45°</label>
+    <input type="radio" style="cursor: pointer"name="question1" value="45°"/>45°</label>
 <label>
-     <input type="radio" name="question1" value="60°"/>60°</label>
+     <input type="radio" style="cursor: pointer" name="question1" value="60°"/>60°</label>
 <label> 
-    <input type="radio" name="question1" value="90°"/>90°</label>
+    <input type="radio" style="cursor: pointer"name="question1" value="90°"/>90°</label>
 </div>
 
-<div class="question-container">
+<div class="angle-area">
     <p>If a triangle has an angle for the triangle where angle of 90 degrees,what is it called?</p>
 <label>
-     <input type="radio" name="question2" value="acute"/>acute</label>
+     <input type="radio" name="question2" style="cursor: pointer" value="acute"/>acute</label>
 <label> 
-    <input type="radio" name="question2" value="octuse"/>octuse</label>
+    <input type="radio" name="question2" style="cursor: pointer"value="octuse"/>octuse</label>
 <label> 
-    <input type="radio" name="question2" value ="right angled"/>right angled</label>
+    <input type="radio" style="cursor: pointer"name="question2" value ="right angled"/>right angled</label>
 </div>
-<button id="submit-answer-btn">Submit Answer</button>
-<div id="output"></div>
+
 
 </form>
+<button id="submit-answer-btn">Submit Answer</button>
+<div id="output"  style="padding: 1rem; margin: 2em;;border: 0.5px solid blue;border-radius: 0.5rem;">Your score is </div>
+<footer class="footer" >
+    <div class="footer-header">Find me here👇</div>
+    <ul class="list-non-bullet2" >
+        <li class="list-item-inline2" >
+            <a class="link"href="https://github.com/Nmnjainsite" style="color: yellow; text-decoration: none;
+           ">
+                github</a> 
+        </li>
+        <li class="list-item-inline2">
+            <a class="link"href="https://instagram.com/namanjain_321"
+             style="color: yellow; 
+             text-decoration: none;
+         "
+            
+           >instagram</a>
+            </li>
+        <li class="list-item-inline2">
+            <a class="link"href="https://www.linkedin.com/in/naman-jain-97382b231" 
+            style="color: yellow;  text-decoration: none;" >linkedin</a>
+        </li>
+    </ul>
+</footer>
     <script src="quiz.js"></script>
     
 </body>

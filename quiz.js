@@ -9,12 +9,12 @@ let score = 0;
 let index = 0;
 const formResults  = new FormData(quizForm);
 for (let value of formResults.values()){
-  if (value === correctAnswer[score]){
+  if (value === correctAnswer[index]){
       score = score + 1;
   }
   index = index + 1;
 }
-output.innerText = "Your score is " + index;
+output.innerText = `Your score is  ${score}`;
 }
 
 submitAnswerBtn.addEventListener('click', calculateScore);
