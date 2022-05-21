@@ -1,37 +1,48 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=Signika+Negative:wght@500;600&display=swap');
 h1{
     color: blue;
     text-align: center;
 }
 body{
 background-color: yellow;
-font-family: "Work Sans", sans-serif;
+font-family: 'Signika Negative', sans-serif;;
+
 }
 .angle-input{
     display: flex;
     flex-direction: row;
-    text-align: right;
+    
+    text-align: center
 }
-
+.list-non-bullet{
+    list-style: none;
+    text-align: center;
+    padding-inline: 1rem
+    ;
+    display: inline;
+}
 
 #header{
     text-align: center;
+  
     color: blue;
 }
 .nav-bar{
   display: block;
-  background-color: orange;
+  background-color: white;
  font-size: x-large;
   text-align: center;
+  border-radius: 0.5rem;
   padding: 2rem;
-  margin: auto;
+  margin: 0rem;
   max-width: 100%;
+  padding-inline-start: 1rem;
 
 }
 
 #input-btn{
     padding: 0.5rem;
-    max-width: 80%;
+    max-width: 50%;
     margin: 0.5rem;
     text-align: center;
 }
@@ -44,6 +55,6 @@ font-family: "Work Sans", sans-serif;
 
 #submit-answer-btn{
     text-align: center;
-    background-color: yellow;
+    background-color: white;
 
 }
