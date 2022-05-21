@@ -13,6 +13,7 @@ background-color:
 font-family: 'Signika Negative', sans-serif;;
 color: yellow;
 height: 1rem;
+text-align: center;
 }
 .angle-input{
     display: block;
@@ -85,9 +86,9 @@ height: 1rem;
 #output{
     border: 1px solid blueviolet;
     border-radius: 1rem;
-    padding: 1rem;
-    margin: 2rem;
-    text-align: center;
+ padding: 1rem;
+ margin: auto;
+    
 }
 .nav-bar{
   display: block;
