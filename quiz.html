@@ -1,75 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Triangle quiz</title>
-</head>
-<body>
-    <nav class="nav-bar" >
-        <ul class="list-non-bullet"  >
-            <li class="list-item-inline" ><a href="index.html" style="text-decoration: none;">Is Triangle?</a></li>
-           
-            
-       <li class="list-item-inline"> <a href="quiz.html" style="text-decoration: none;">Triangle Quiz</a></li>
-       <li class="list-item-inline"><a href="hypotenuse.html" style="text-decoration: none; ">Hypotenuse</a></li>
-        <li class="list-item-inline">   <a href="area.html" style="text-decoration: none;">Measure Area</a></li>
-     
-    </ul>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a href="index.html" style="text-decoration: none">Is Triangle?</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a href="quiz.html" style="text-decoration: none">Triangle Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a href="hypotenuse.html" style="text-decoration: none">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a href="area.html" style="text-decoration: none">Measure Area</a>
+        </li>
+      </ul>
     </nav>
     <h1>triangle quiz</h1>
-<form class="quiz-form" >
-<div class="angle-area">
-    <p>what is the third angle fr the traingle where angle1=45° and angle2=45°?</p>
-<label> 
-    <input type="radio" style="cursor: pointer"name="question1" value="45°"/>45°</label>
-<label>
-     <input type="radio" style="cursor: pointer" name="question1" value="60°"/>60°</label>
-<label> 
-    <input type="radio" style="cursor: pointer"name="question1" value="90°"/>90°</label>
-</div>
+    <form class="quiz-form">
+      <div class="angle-area">
+        <p>
+          what is the third angle for the traingle where angle1=45° and
+          angle2=45°?
+        </p>
+        <label>
+          <input
+            type="radio"
+            style="cursor: pointer"
+            name="question1"
+            value="45°"
+          />45°</label
+        >
+        <label>
+          <input
+            type="radio"
+            style="cursor: pointer"
+            name="question1"
+            value="60°"
+          />60°</label
+        >
+        <label>
+          <input
+            type="radio"
+            style="cursor: pointer"
+            name="question1"
+            value="90°"
+          />90°</label
+        >
+      </div>
 
-<div class="angle-area">
-    <p>If a triangle has an angle for the triangle where angle of 90 degrees,what is it called?</p>
-<label>
-     <input type="radio" name="question2" style="cursor: pointer" value="acute"/>acute</label>
-<label> 
-    <input type="radio" name="question2" style="cursor: pointer"value="octuse"/>octuse</label>
-<label> 
-    <input type="radio" style="cursor: pointer"name="question2" value ="right angled"/>right angled</label>
-</div>
-
-
-</form>
-<button id="submit-answer-btn">Submit Answer</button>
-<div id="output"  style="padding: 1rem; margin: 2em;;border: 0.5px solid blue;border-radius: 0.5rem;">Your score is </div>
-<footer class="footer" >
-    <div class="footer-header">Find me here👇</div>
-    <ul class="list-non-bullet2" >
-        <li class="list-item-inline2" >
-            <a class="link"href="https://github.com/Nmnjainsite" style="color: yellow; text-decoration: none;
-           ">
-               <image src="	https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-               " style="width: 30px; border-radius: 0.5rem"></image> </a> 
+      <div class="angle-area">
+        <p>
+          If a triangle has an angle for the triangle where angle of 90
+          degrees,what is it called?
+        </p>
+        <label>
+          <input
+            type="radio"
+            name="question2"
+            style="cursor: pointer"
+            value="acute"
+          />acute</label
+        >
+        <label>
+          <input
+            type="radio"
+            name="question2"
+            style="cursor: pointer"
+            value="octuse"
+          />octuse</label
+        >
+        <label>
+          <input
+            type="radio"
+            style="cursor: pointer"
+            name="question2"
+            value="right angled"
+          />right angled</label
+        >
+      </div>
+      <div class="angle-area">
+        <p>What is an "acute" angle?</p>
+        <label>
+          <input
+            type="radio"
+            name="question3"
+            style="cursor: pointer"
+            value="Angle that measure 180"
+          />Angle that measure 180</label
+        >
+        <label>
+          <input
+            type="radio"
+            name="question3"
+            style="cursor: pointer"
+            value="Angle that measure 90"
+          />Angle that measure 90</label
+        >
+        <label>
+          <input
+            type="radio"
+            style="cursor: pointer"
+            name="question3"
+            value="Angle that measure less than 90"
+          />Angle that measure <90</label
+        >
+      </div>
+      <div class="angle-area">
+        <p>What is an "obtuse" angle?</p>
+        <label>
+          <input
+            type="radio"
+            name="question4"
+            style="cursor: pointer"
+            value="Angle that measure 180"
+          />Angle that measure 180</label
+        >
+        <label>
+          <input
+            type="radio"
+            name="question4"
+            style="cursor: pointer"
+            value="Angle that measure 90"
+          />Angle that measure 90</label
+        >
+        <label>
+          <input
+            type="radio"
+            style="cursor: pointer"
+            name="question4"
+            value="Angle that measure more than 90"
+          />Angle that measure >90</label
+        >
+      </div>
+      <div class="angle-area">
+        <p>What is reflex angle?</p>
+        <label>
+          <input
+            type="radio"
+            name="question5"
+            style="cursor: pointer"
+            value="angle between 180 & 360"
+          />angle between 180 & 360</label
+        >
+        <label>
+          <input
+            type="radio"
+            name="question5"
+            style="cursor: pointer"
+            value="angle between 90 &360"
+          />angle between 90 & 360</label
+        >
+        <label>
+          <input
+            type="radio"
+            style="cursor: pointer"
+            name="question5"
+            value="angle between 0 & 270"
+          />angle between 0 & 270</label
+        >
+      </div>
+    </form>
+    <button id="submit-answer-btn">Submit Answer</button>
+    <div
+      id="output"
+      style="
+        padding: 1rem;
+        margin: 2em;
+        border: 0.5px solid blue;
+        border-radius: 0.5rem;
+      "
+    >
+      Your score is
+    </div>
+    <footer class="footer">
+      <div class="footer-header">Find me here👇</div>
+      <ul class="list-non-bullet2">
+        <li class="list-item-inline2">
+          <a
+            class="link"
+            href="https://github.com/Nmnjainsite"
+            style="color: yellow; text-decoration: none"
+          >
+            <image
+              src="	https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+               "
+              style="width: 30px; border-radius: 0.5rem"
+            ></image>
+          </a>
         </li>
         <li class="list-item-inline2">
-            <a class="link"href="https://instagram.com/namanjain_321"
-             style="color: yellow; 
-             text-decoration: none;
-         "
-            
-           ><image src="	https://cdn-icons-png.flaticon.com/512/2111/2111463.png
-           " style="width: 30px; border-radius: 0.5rem;"></image></a>
-            </li>
-        <li class="list-item-inline2">
-            <a class="link"href="https://www.linkedin.com/in/naman-jain-97382b231" 
-            style="color: yellow;  text-decoration: none;" ><image src="https://www.kindpng.com/picc/m/82-824645_linkedin-logo-black-and-white-png-logo-linkedin.png" style="width: 40px;border-radius: 1rem;"></image></a>
+          <a
+            class="link"
+            href="https://instagram.com/namanjain_321"
+            style="color: yellow; text-decoration: none"
+            ><image
+              src="	https://cdn-icons-png.flaticon.com/512/2111/2111463.png
+           "
+              style="width: 30px; border-radius: 0.5rem"
+            ></image
+          ></a>
         </li>
-    </ul>
-</footer>
+        <li class="list-item-inline2">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/naman-jain-97382b231"
+            style="color: yellow; text-decoration: none"
+            ><image
+              src="https://www.kindpng.com/picc/m/82-824645_linkedin-logo-black-and-white-png-logo-linkedin.png"
+              style="width: 40px; border-radius: 1rem"
+            ></image
+          ></a>
+        </li>
+      </ul>
+    </footer>
     <script src="quiz.js"></script>
-    
-</body>
+  </body>
 </html>
